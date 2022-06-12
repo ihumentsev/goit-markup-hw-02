@@ -1,0 +1,44 @@
+/* Основной цвет #757575 */
+/* Цвет заголовков #212121 */
+/* Белій цвет #FFFFFF */
+/* Цвет акцента #2196F3; */
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
+body {
+    color: var(--primary-text-color) ;
+    background-color: #FFFFFF;
+}
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--title-text-color);
+}
+ul {
+    list-style: none;
+}
+.logo {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        /* identical to box height */
+    
+        letter-spacing: 0.03em;
+    
+        color: #2196F3;
+}
+.logo-header {
+    color: #212121;
+}
