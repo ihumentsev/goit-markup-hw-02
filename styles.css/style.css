@@ -166,7 +166,7 @@ ul {
     text-align: center;
 }
 
-.team-list {  }
+.team-list {}
 
 .team-item {
     background: #FFFFFF;
@@ -235,7 +235,10 @@ ul {
 
 .project-list {}
 
-.project-item {}
+.project-item {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
 
 .project-text {
     font-size: 16px;
